@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* Masony CSS Document */
+
+.grid {
+  background: #FFFFFF;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  width: 33.33%;
+  float: left;
+  background: #FFFFFF;
+  padding:0.9%;
+ }
+
+.tile-image {
+  width: 100%;
+  height: auto;
+  margin:0;
+  vertical-align:bottom;
+}
+
+/*.container {
+  position: relative;
+  width: 50%;
+}*/
+
+/*---- text overlay grid items ----*/
+.overlay {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left:0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000001;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.tileHeading {
+	font-family: 'News Cycle', sans-serif;
+color: #ffffff;
+  font-size: 20px;
+  position: absolute;
+  margin:10%;
+ /* [Find out what this does] transform: translate(-30%, -30%);
+  [Find out what this does]-ms-transform: translate(-30%, -30%);*/
+  padding-bottom:10px;
+}
+
+.textlandscape {
+	font-family:'Inconsolata', monospace;
+	color: #ffffff;
+	font-size: 12px;
+  line-height: 18px;  
+	position: absolute;
+	top: 40%;
+	margin:10%;
+}
+
+.textportrait {
+	font-family:'Inconsolata', monospace;
+	color: #ffffff;
+	font-size: 12px;  
+  line-height: 18px;
+	position: absolute;
+	top: 20%;
+	margin:10%;
+}
+
+.dottedlinewhite {
+	border-bottom: 1px dotted #ffffff;
+	position: absolute;
+	width:80%;
+}
+
+/*contains text overlay elements keeps it in bounds */
+.wrapper {
+	position:relative;
+}
+
+@media (max-width: 786px) {
+
+/*text overlay grid items */
+	.textlandscape {
+		display:none;
+	}
+
+  .textportrait {
+    display:none;
+  }
+	.tileHeading {
+		font-size: 10px;
+	}
+}
