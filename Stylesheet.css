@@ -114,14 +114,14 @@ html {
 	padding-bottom: 40px;
 }
 
-@media (max-width: 899px) {
+@media (max-width: 56em) {
    h1 {
 	 font-size: 30px;
 	 line-height: 30px;
 }
 }
 
-@media (max-width: 49.125em) {
+@media (max-width: 49em) {
   .photodescription {
     flex-wrap: wrap;
   }
