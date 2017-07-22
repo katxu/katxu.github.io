@@ -93,7 +93,7 @@ color: #ffffff;
 	position:relative;
 }
 
-@media (max-width: 49em) {
+@media (max-width: 786px) {
 
 .grid-item {
   width: 50%;
