@@ -95,13 +95,13 @@ html {
 	display: block;
 	margin-left: auto;
     margin-right: auto;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 }
 
 .imageLandscape {
 	width:100%;
 	height: auto;
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 }
 
 .videocontainer {
@@ -111,7 +111,7 @@ html {
 	margin-left: auto;
     margin-right: auto;
     /*padding-top:30px;*/
-	padding-bottom: 40px;
+	padding-bottom: 20px;
 }
 
 .videoWrapper {
@@ -126,6 +126,14 @@ html {
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+
+.copyrightdiv {
+	text-align: center;
+	width:100%;
+	padding-top: 40px;
+	padding-bottom: 20px;
+
 }
 
 @media (max-width: 899px) {
