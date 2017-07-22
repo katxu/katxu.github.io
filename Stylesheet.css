@@ -46,7 +46,7 @@ h1 {
 
 p {
 	color: #000001;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Inconsolata', serif, monospace;
 	font-size: 14px;
 	line-height: 20px;
 	vertical-align: top;
