@@ -53,6 +53,11 @@ p {
 	margin-top: 0;
 }
 
+.emailaddress {
+	color:#000001;
+	text-decoration: none;
+}
+
 .blurb {
 	width:60%;
 	margin-top: 0;
