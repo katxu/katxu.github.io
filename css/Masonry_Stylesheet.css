@@ -47,7 +47,7 @@
   background-color: #000001;
 }
 
-.container:hover .overlay {
+ .overlay:hover {
   opacity: 1;
 }
 
@@ -83,7 +83,7 @@ color: #ffffff;
 }
 
 .dottedlinewhite {
-	border-bottom: 1px dotted #ffffff;
+	border-bottom: 1px dashed #ffffff;
 	position: absolute;
 	width:80%;
 }
@@ -99,7 +99,7 @@ color: #ffffff;
   width: 50%;
   float: left;
   background: #FFFFFF;
-  padding:0.9%;
+  padding:1.4%;
  }
 
 /*text overlay grid items */
@@ -110,7 +110,5 @@ color: #ffffff;
   .textportrait {
     display:none;
   }
-	.tileHeading {
-		font-size: 10px;
-	}
+
 }
