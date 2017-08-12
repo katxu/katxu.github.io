@@ -1,25 +1,55 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html >
    <head>
-      <meta charset="utf-8">
-      <title>KIT</title>
-       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="./Stylesheet.css">
-      <link rel="stylesheet" href="./Masonry_Stylesheet.css">
-      <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Inconsolata|News+Cycle" rel="stylesheet">
+      <meta charset="UTF-8">
+      <title>I'm Kathryn Chan</title>
+      <link rel="shortcut icon" type="image/x-icon" href="images/favicon_v2.ico" />
+      <link rel="stylesheet" href="css/meyerReset.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/Masonry_Stylesheet.css">
    </head>
    <body>
       <div class="contentbox">
-         <div class="bar">
-            <div><a href="https://katxu.github.io/" class="logo">KIT</a></div>
-            <div class="navheadposition"><a href="./About.html" class="navheadtext">ABOUT</a></div>
-         </div>
-         <div class="dottedline"></div>
+         <nav class="navwrapper">
+            <a href="https://katxu.github.io/">
+               <div class="logo"></div>
+            </a>
+            <nav class="navMenu" role='navigation'>
+               <div id="menuToggle">
+                  <!--
+                     Hidden checkbox for click receive,
+                     so :checked selector can be used.
+                     -->
+                  <input type="checkbox" />
+                  <!--
+                     Hamburger Spans
+                     -->
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <!--
+                     Menu
+                     -->
+                  <ul id="menu">
+                     <a href="https://katxu.github.io/">
+                        <li>PHOTOGRAPHY</li>
+                     </a>
+                     <a href="designblog/bloglist.html">
+                        <li>DESIGN BLOG</li>
+                     </a>
+                     <a href="./About.html">
+                        <li>ABOUT</li>
+                     </a>
+                  </ul>
+               </div>
+            </nav>
+         </nav>
+         <div class="dashedline"></div>
          <div class="grid">
             <div class="grid-item container">
-               <a href="./Citrusberries.html">
+               <a href="photoblogs/citrusberries.html">
                   <div class="wrapper">
-                     <img class="tile-image" src="http://i.imgur.com/3J85dYz.jpg"/>
+                     <img class="tile-image" src="https://i.imgur.com/7i6zjoh.jpg"/>
                      <div class="overlay">
                         <div class="tileHeading dottedlinewhite">CITRUSBERRIES</div>
                         <div class="textportrait">Walls full of hub caps and air full of citrus. This was on our last day where tumbled through town, whisked down the dusty roads and floated into the orchards.</div>
@@ -28,40 +58,40 @@
                </a>
             </div>
             <div class="grid-item container">
-               <a href="./Couch-lights.html">
+               <a href="photoblogs/couch-lights.html">
                   <div class="wrapper">
-                     <img class="tile-image" src="http://i.imgur.com/ggGrIcA.jpg"/>
+                     <img class="tile-image" src="https://i.imgur.com/ggGrIcA.jpg"/>
                      <div class="overlay">
                         <div class="tileHeading dottedlinewhite">COUCH LIGHTS</div>
                         <div class="textlandscape">First experiment with low light.</div>
                      </div>
                   </div>
                </a>
-            </div>  
+            </div>
             <div class="grid-item container">
-               <a href="./Flow.html">
+               <a href="photoblogs/flow.html">
                   <div class="wrapper">
-                     <img class="tile-image" src="http://i.imgur.com/vtw37fw.jpg"/>
+                     <img class="tile-image" src="https://i.imgur.com/vtw37fw.jpg"/>
                      <div class="overlay">
                         <div class="tileHeading dottedlinewhite">FLOW</div>
                         <div class="textlandscape">/fləʊ/ A bubble down memory lane.</div>
                      </div>
                   </div>
                </a>
-            </div> 
+            </div>
             <div class="grid-item container">
-               <a href="./Postcards.html">
+               <a href="photoblogs/Postcards.html">
                   <div class="wrapper">
-                     <img class="tile-image" src="http://i.imgur.com/GruWSRr.jpg"/>
+                     <img class="tile-image" src="https://i.imgur.com/GruWSRr.jpg"/>
                      <div class="overlay">
                         <div class="tileHeading dottedlinewhite">POSTCARDS</div>
                         <div class="textlandscape">Driving past the limestone castle, under the windy mountains and around the Devil's Corner.</div>
                      </div>
                   </div>
                </a>
-            </div> 
-             <div class="grid-item container">
-               <a href="./Froth.html">
+            </div>
+            <div class="grid-item container">
+               <a href="photoblogs/Froth.html">
                   <div class="wrapper">
                      <img class="tile-image" src="http://i.imgur.com/hPRmE7S.jpg"/>
                      <div class="overlay">
@@ -70,11 +100,13 @@
                      </div>
                   </div>
                </a>
-            </div>                      
+            </div>
          </div>
-         <div class ="copyrightdiv"><p>All images © 2017 Katxu</p></div>
+         <div class ="copyrightdiv">
+            <p>All Content © 2017 Kathryn Chan</p>
+         </div>
       </div>
       <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
-      <script src="./Masonry_JS.js"></script>
+      <script src="js/Masonry_JS.js"></script>  
    </body>
 </html>
